@@ -1,6 +1,6 @@
 cask "font-mote-mono" do
-  version "0.1.0"
-  sha256 "c095990bcf8921c1074fa50cbdbcfc727375653ef3f0800efdc1958af602a1bf"
+  version "0.1.1"
+  sha256 "ef097089356c0b671d43b33f1b6b3145858ba3f4d25f94e797dbca34b95bcc8e"
 
   url "https://github.com/markryall/mote-mono/releases/download/v#{version}/MoteMono-#{version}.zip"
   name "Mote Mono"
