@@ -1,24 +1,24 @@
 class WorldTxt < Formula
   desc "A cozy multiplayer text world: wander, chat, garden and craft on a shared island. No battles, just bonhomie."
-  homepage "https://github.com/markryall/world.txt"
+  homepage "https://github.com/NIH-Industries/world.txt"
   version "0.12.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/world.txt/releases/download/v0.12.1/world-txt-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-aarch64-apple-darwin.tar.xz"
       sha256 "7fe6ef4b837f0a9074f8064bdaf11b7e866c3c5dc0f4ed1c508b0e538bf5056f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/world.txt/releases/download/v0.12.1/world-txt-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-x86_64-apple-darwin.tar.xz"
       sha256 "0d51f9406a108e354076047bb078424984f3a6b3ab253804e53d384ac7c4f630"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/world.txt/releases/download/v0.12.1/world-txt-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "c2479ad8a95e49c9c3c5f76c8464b7a04f4a77b97c05bc43f32882e19daf492f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/world.txt/releases/download/v0.12.1/world-txt-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "311e5d73c565fa1dbf018b0e455543051f3d439fdaa1bafddd96ce604ef381cb"
     end
   end
