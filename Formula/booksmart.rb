@@ -1,25 +1,25 @@
 class Booksmart < Formula
   desc "A terminal bookmark launcher: fuzzy-filter TOML bookmarks and open them in the right browser space"
   homepage "https://github.com/markryall/booksmart"
-  version "0.2.1"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/booksmart/releases/download/v0.2.1/booksmart-aarch64-apple-darwin.tar.xz"
-      sha256 "ae19efc6d2d99741c7a5e1cb3c57a33ecbe44f0e1aaaf0b03a9f06bbc07619da"
+      url "https://github.com/markryall/booksmart/releases/download/v0.3.0/booksmart-aarch64-apple-darwin.tar.xz"
+      sha256 "af53a9d3d9dc50b2d39419a5742d1c00c1511125a423339e900c31fde7b5e71b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/booksmart/releases/download/v0.2.1/booksmart-x86_64-apple-darwin.tar.xz"
-      sha256 "b3d2d4eff786af39b6d033409ffec9e90b39bf4b8993a33dd305f943ef0e772f"
+      url "https://github.com/markryall/booksmart/releases/download/v0.3.0/booksmart-x86_64-apple-darwin.tar.xz"
+      sha256 "76c39118973619037734998d47c8fec77b6aaed9722f9aa98e582fab04b67a22"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markryall/booksmart/releases/download/v0.2.1/booksmart-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c1c726d51252a2b43e9dc058fda6b5d79a7f35400abeb42d077e013761659962"
+      url "https://github.com/markryall/booksmart/releases/download/v0.3.0/booksmart-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "38dc3c4dc891f06132e13440c20641e0973e68b477530f9bc56c4d750af51de9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markryall/booksmart/releases/download/v0.2.1/booksmart-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0cc5fd8ba7c8938d1412d472d2b9e0f6f483293e3761f84a1ec6ebcf9fd4fa6a"
+      url "https://github.com/markryall/booksmart/releases/download/v0.3.0/booksmart-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "23be3992b7068d869449ed34ec87f854cc02bb6e005b1200c144d117a619a57d"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
