@@ -1,25 +1,25 @@
 class WorldTxt < Formula
   desc "A cozy multiplayer text world: wander, chat, garden and craft on a shared island. No battles, just bonhomie."
   homepage "https://github.com/NIH-Industries/world.txt"
-  version "0.12.1"
+  version "0.13.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-aarch64-apple-darwin.tar.xz"
-      sha256 "7fe6ef4b837f0a9074f8064bdaf11b7e866c3c5dc0f4ed1c508b0e538bf5056f"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.13.0/world-txt-aarch64-apple-darwin.tar.xz"
+      sha256 "02a67f7f9931ec96bffea36724c672ea51c10e430bb7d4d3a695cb3765ada30e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-x86_64-apple-darwin.tar.xz"
-      sha256 "0d51f9406a108e354076047bb078424984f3a6b3ab253804e53d384ac7c4f630"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.13.0/world-txt-x86_64-apple-darwin.tar.xz"
+      sha256 "cba9f03178e5ef272e5700a60dbde73359bbd93ca0b2c472260047b91441bd92"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c2479ad8a95e49c9c3c5f76c8464b7a04f4a77b97c05bc43f32882e19daf492f"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.13.0/world-txt-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "93628fedf3891f0980c13a4313eb19f31442ddb5e91f147620a42fa5737e01a7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.12.1/world-txt-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "311e5d73c565fa1dbf018b0e455543051f3d439fdaa1bafddd96ce604ef381cb"
+      url "https://github.com/NIH-Industries/world.txt/releases/download/v0.13.0/world-txt-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "680b15c1944c6a50493f6d416ae131e410f51514ed1b11d5d770a3956b1e2fb9"
     end
   end
   license "MIT"
