@@ -1,25 +1,25 @@
 class VeryNormal < Formula
   desc "A terminal typing tutor that makes a keyboard layout from your own typing and moves you to it from the layout you type on now, a few keys at a time"
   homepage "https://github.com/NIH-Industries/very-normal"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.5.0/very-normal-aarch64-apple-darwin.tar.xz"
-      sha256 "007e0f9dd049a21ecefd3d8851d4b9c5a6b68add8c536e863501d858771ff8ba"
+      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.6.0/very-normal-aarch64-apple-darwin.tar.xz"
+      sha256 "a6c4254cb1868bd482d5f6d3bcb8a80293a35f3b702ec9e6e1a3306ab8a1dbdd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.5.0/very-normal-x86_64-apple-darwin.tar.xz"
-      sha256 "be06e86c912ad509d115e114d8cd22dc383e43943424275755c669a3e867ea66"
+      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.6.0/very-normal-x86_64-apple-darwin.tar.xz"
+      sha256 "d15d6c781710da9ebc6094a5de334783e701bd534198a4cecbc9d406e38e1962"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.5.0/very-normal-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d30a9626a1c85c096cb9dab379a15523f77c093e2b82725be2c4fd5eab0a5aaa"
+      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.6.0/very-normal-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cb16d43e19eff9415e089f62bace027656c0bae6859ffd3282247d5895f27ab0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.5.0/very-normal-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bba815d36cc7e12474bb5b1783cc8220d00623fe1f99c8eb78e794bf81060aac"
+      url "https://github.com/NIH-Industries/very-normal/releases/download/v0.6.0/very-normal-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "776ed10c0314e4d6be2e9d82c94f0023626e7566f739e95fcedb37113ba1d203"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
