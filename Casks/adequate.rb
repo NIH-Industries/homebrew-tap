@@ -1,6 +1,6 @@
 cask "adequate" do
-  version "0.1.0"
-  sha256 "70cbef87a62e4f37fc52075f0202b5a916ab345a7d3732677adc5ff99ea16b6d"
+  version "0.2.0"
+  sha256 "92845ff51c1d8a92f319a39b634767f69dfa0ea4df8d5db0e80e3695fbfe67d7"
 
   url "https://github.com/NIH-Industries/adequate/releases/download/v#{version}/Adequate-#{version}.zip"
   name "Adequate"
